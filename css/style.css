@@ -1,0 +1,286 @@
+html {
+    font-family: roboto;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-content {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../img/header.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.navlist {
+    margin-right: 50px;
+}
+
+.navlist li {
+    margin: 0 10px;
+}
+
+.navlist li a {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.header-content-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+
+.header-content-text p {
+    color: #ffffff;
+    font-size: 2em;
+    max-width: 800px;
+    padding: 0 25px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.headerMain {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: archivo black;
+    font-size: 4em;
+}
+
+@media all and (max-width: 475px) {
+    .headerMain {
+        font-size: 2.5em;
+    }
+    
+    .header-content-text p {
+        font-size: 1.4em;
+    }
+}
+
+.buttonHeader {
+    background: #ff6c00;
+    border-color: #ff6c00; 
+    font-size: 1.3em;
+    font-family: roboto;
+    text-transform: uppercase;
+    border-radius: 300px;
+}
+
+.buttonHeader:hover {
+    background: #db6107;
+    border-color: #db6107;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+.btn-md {
+    padding: 10px 25px;
+}
+
+hr {
+    max-width: 50px;
+    border: 2px solid #ff6c00;
+    margin: 50px 0 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-brand {
+    font-size: 2em;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50px;
+}
+
+.headerAbout h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.headerAbout h2:first-letter {
+    color: #ff6c00;
+}
+.img-container {
+    
+}
+
+.circlePhoto {
+    border-radius: 50%;
+    position: relative;
+}
+
+.photoDesc h4 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.photoDesc h4:first-letter {
+    color: #ff6c00;
+   font-size: 1.4em;
+    
+}
+
+.headerAbout hr {
+    margin: 25px 0 50px;
+}
+
+.photoDesc p {
+    font-size: 1.5em;
+}
+
+@media (max-width: 1199px) {
+    .photoDesc h4 {
+        text-align: center;
+    } 
+}
+
+@media (max-width: 768px) {
+    .photoDesc h4 {
+        text-align: center;
+    } 
+    
+    .photoDesc p {
+        font-size: 1.2em;
+        margin: 0 auto;
+        text-align:center;
+    }
+}
+
+.sectionHeader h2 {
+    .padding-top: 100px;
+    
+    text-transform: uppercase;
+    font-size: 2em;
+    
+}
+
+.sectionHeader h2:first-letter {
+    color: #ff6c00;
+}
+
+
+.sectionHeader hr {
+    margin: 25px 0 25px 0;
+    border-color: #ff6c00;
+    
+}
+
+.fa-services {
+    color: #ff6c00;
+    margin-bottom: 15px;
+}
+
+.servBox {
+    margin-top: 50px;
+}
+
+.servBox h3 {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.servBox p {
+    font-size: 1.2em;
+    color: #ffffff; rgb(255, 108, 0)
+}
+
+.oferta-bg {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/city.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+    padding: 100px 0;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+.portfolio-grid {
+    padding: 0;
+    
+}
+
+
+portfolio-box a {
+    overflow: hidden;
+}
+
+.portfolio-section {
+    margin-top: 100px;
+}
+
+.contact-text {
+    font-size: 1.5em;
+}
+
+.phone-number {
+    font-size: 1.3em;
+}
+
+.mail {
+    font-size: 1.3em;
+}
+
+.phone-icon, .mail-icon {
+    margin: 50px 0 25px;
+    color: #ff6c00; 
+}
+
+.footer {
+   margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 150px;
+    background: #000000;
+    border-top: 10px solid #ff6c00;
+    margin-top: 80px;
+}
+
+.footer-brand {
+    font-size: 3em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer-brand:hover {
+    color: #ff6c00;
+    text-decoration: none;
+}
+
+.author {
+    font-size: 1.3em;
+    color: #5f5f5f;
+    margin: 0;
+}
+
+.author-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.author-link:hover {
+    color: #ff6c00;
+    text-decoration: none;
+}
+
+.brand-container {
+    padding: 10px 0 40px;
+}
+
+.cont-section {
+    padding-top: 100px;
+}
+
+.oferta-section {
+    margin-top: 100px;
+}
+
+.omnie-section {
+    margin-top: 100px;
+}
+
+
+
