@@ -104,14 +104,16 @@ hr {
 .headerAbout h2:first-letter {
     color: #ff6c00;
 }
-.img-container {
-    
-}
 
 .circlePhoto {
     border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
     position: relative;
 }
+
 
 .photoDesc h4 {
     font-size: 3em;
@@ -141,6 +143,7 @@ hr {
 @media (max-width: 768px) {
     .photoDesc h4 {
         text-align: center;
+        width: 100%;
     } 
     
     .photoDesc p {
@@ -170,7 +173,7 @@ hr {
 }
 
 .fa-services {
-    color: #ff6c00;
+    color: #efa670;
     margin-bottom: 15px;
 }
 
@@ -180,7 +183,7 @@ hr {
 
 .servBox h3 {
     font-size: 2em;
-    color: #ffffff;
+    color: #efa670;
 }
 
 .servBox p {
@@ -189,7 +192,7 @@ hr {
 }
 
 .oferta-bg {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/city.jpg");
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url("../img/bg-mac.jpg");
     background-position: bottom;
     background-size: cover;
     background-attachment: fixed;
@@ -281,6 +284,137 @@ portfolio-box a {
 .omnie-section {
     margin-top: 100px;
 }
+
+.work-1-hover {
+    opacity: 0;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,108,0,0.8), rgba(255,108,0,0.8)), url("img/portfolio/thumbnails/1.jpg");
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+    
+}
+
+.work-2-hover {
+    opacity: 0;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,108,0,0.8), rgba(255,108,0,0.8)), url("img/portfolio/thumbnails/2.jpg");
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.work-3-hover {
+    opacity: 0;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,108,0,0.8), rgba(255,108,0,0.8)), url("img/portfolio/thumbnails/3.jpg");
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.work-4-hover {
+    opacity: 0;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,108,0,0.8), rgba(255,108,0,0.8)), url("img/portfolio/thumbnails/4.jpg");
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.work-5-hover {
+    opacity: 0;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,108,0,0.8), rgba(255,108,0,0.8)), url("img/portfolio/thumbnails/5.jpg");
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.work-6-hover {
+    opacity: 0;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,108,0,0.8), rgba(255,108,0,0.8)), url("img/portfolio/thumbnails/6.jpg");
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.work-desc:hover {
+    opacity: 1;
+}
+
+.work-container {
+    position: relative;
+}
+
+.work-desc h4 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.work-desc p {
+    margin: 10px 0 0;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.work-desc hr {
+    margin: 20px 0 0;
+    border-color: #ffffff;
+    position: absolute;
+    width: 50px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+
+
 
 
 
